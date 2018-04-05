@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My account</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="shortcut icon" href="img/icon.png" type="image/png">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+<script>
+    function viewdiv(id) {
+        var el = document.getElementById(id);
+        var link = document.getElementById('vertical_menu');
+        if (el.style.display == "block") {
+            el.style.display = "none";
+           
+        } else {
+            el.style.display = "block";
+            
+        }
+    }
+
+</script>
+  
+<script type="text/javascript">
+
+var visible = true;
+function showFun() {
+    if(visible) {
+        document.getElementById('myShowBlock' ).style.display = 'block';
+        visible = false;
+    } else {
+        document.getElementById('myShowBlock' ).style.display = 'none';
+        visible = true;
+    }
+}
+
+
+</script>
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-light">
+  <span id="mob"><a href="#" id="toggleLink" href="javascript:void(0);" onclick="viewdiv('vertical_menu');"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></a></span>
+  <a class="navbar-brand" href="account.html"><img class="logo flexible-image" src="img/logo.png" alt=""></a>
+   <a class="logout" href="#"><span class="hover_log">Log Out</span><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>
+  <a class="logout-mob nav navbar-nav navbar-right" href="#"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>
+</nav>
+
+
+
+<div class="container-fluid fo">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 no-gutter">
+
+      <nav id="vertical_menu" class="fon">
+  <ul class="ula">
+    <a href="account.html"><li class="content">My account</li></a>
+    <a href="Billing-1.html"><li class="content">Billing</li></a>
+   <li class="content3">Setup</li>
+    <a href="#" onclick="showFun()"><li class="content"><span class="mar rask">GA to CRM</span><span id="menu-icon" class="fa fa-chevron-right"></span></li></a>
+    
+    <ul id="myShowBlock" style="display: none;">
+    <a href="https://gaconnector.com/free-trial/setup-wizard/"><li class="content2"><span class="mar2">1. Setup tracking code</span></li></a>
+    <a href="https://gaconnector.com/free-trial/setup-wizard/step-2.html"><li class="content2"><span class="mar2">2. Install extension</span></li></a>
+    <a href="https://gaconnector.com/free-trial/setup-wizard/step-3.html"><li class="content2"><span class="mar2">3. Establish connection</span></li></a>
+  </ul>
+    <a href="crmtoga.html"><li class="content actived"><span class="mar">CRM to GA</span></li></a>
+  </ul>
+  <footer>
+  <table cellspacing="0" align="center">
+   <tr>
+    <td align="left" class="quest">QUESTIONS?</td>
+   </tr>
+   <tr>
+    <td class="link"><a href="support@gaconnector.com">support@gaconnector.com</a></td>
+   </tr>
+ </table>
+  <!--<p class="quest">QUESTIONS?</p>
+  <a class="link" href="support@gaconnector.com">support@gaconnector.com</a>-->
+</footer>
+</nav>
+</div>
+
+
+
+<div class="col-12 col-sm-12 col-md-8 col-lg-9 col-xl-9 fo"></div>
+
+      
+    </div>
+  </div>
+</div>
+
+
+
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="js/vertical-responsive-menu.min.js"></script>
+</body>
+</html>
