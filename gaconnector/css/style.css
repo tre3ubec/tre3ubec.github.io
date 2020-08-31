@@ -16,9 +16,7 @@ input {width: 100%;height: 55px; border: 2px solid; border-color: #e1e1e1; font-
 .name3 {font-family: 'Montserrat', sans-serif; font-size: 17px; color: #adadad;margin-top: 11px;margin-left: 5px;  }
 .btn-danger {background-color: #ff7476;border-radius: 5px;height: 64px; width: 100px; color: white; font-family: 'Montserrat', regular; font-size: 27px;margin-top: 20px; border: none;  }
 .btn-danger:hover {background-color: #fc6264;}
-.custom {
-    width: 192px !important;
-}
+.custom {width: 192px !important;}
 .incorrect {text-align: center; color:#f43e41; font-size: 16px; margin-top: -20px; margin-bottom: 25px;}
 .incorrect2 {color:#f43e41; font-size: 16px; margin-top: 5px;}
 .disabled {background-color: #ff7476;}
@@ -26,8 +24,6 @@ input {width: 100%;height: 55px; border: 2px solid; border-color: #e1e1e1; font-
 .title2 {font-size: 36px;}
 .desc {font-family: 'Montserrat', regular; font-size: 21px; font-weight: bold; color: #333333;}
 .text {font-family: 'Montserrat', regular; font-size: 21px; color: #333333;}
-
-
 .no-gutter  {padding-right:0;padding-left:0; height: 100%; }
 #vertical_menu {font-family: 'Montserrat', regular; height: 90vh; overflow: auto;}
 .navbar {background-color: #ff7476; height: 10vh;}
@@ -45,21 +41,10 @@ ul {margin-left: 0px;padding-left: 0;}
 .mar2 {margin-left: /*60px*/10vh;}
 .fa-sign-out {color: #ffbabb; margin-right: 20px;margin-left: 10px;}
 .hover_log:hover {color: #c4b2b2;}
-
-
-
-
-
 .thank {color: #333333;font-family: 'Montserrat', regular;font-size: 26px; margin-top: 30vh;}
 .happy {margin-top: 20px;color: #333333;font-family: 'Montserrat', regular;font-size: 26px;}
-
-
-
-
-
 a {color: white;text-decoration: none;}
 a:hover {text-decoration: none; color: white;}
-
 .fo {font-family: 'Montserrat', regular; font-size: 21px;}
 .title2 {color: #323d4e; font-size: 36px; text-align: center; margin-top: 60px; margin-bottom: 28px; }
 footer { color: white;font-family: 'Montserrat', regular;text-align: center;font-size: 18px; margin-top: 30%;background-color: #323d4e; background-size: 100%; }
@@ -78,61 +63,37 @@ footer { color: white;font-family: 'Montserrat', regular;text-align: center;font
 .btn-danger:hover {background-color: #ff7476; color: white;}
 .btn-danger:active {background-color: #ff7476; color: white;}
 .card-down {color: #919191; margin-top: 5px; margin-bottom: -13px; font-size: 14px; font-family: 'Montserrat', regular;}
-
 .bill-foot {margin-top: 30px;}
 .bill-quest {font-family: 'Montserrat', regular; color: #323d4e; font-weight: 400; font-size: 21px;}
 .bill-link {margin-left: 30px; color: #337ab7; font-family: 'Montserrat', regular;font-size: 21px; }
 .bill-link:hover {color: #15578f;}
-
 .fa-sign-out:hover {color:#c4b2b2;}
-
-
 .logout {display: block; }
 .logout-mob {display: none;}
 #mob {display: none;}
-
 @media (max-width: 1270px) {
 input {width: 90%;} /*.mar2 {margin-left: 5px;}*/ .link {font-size: 14px;}}
-
 @media (max-width: 1200px) {.mar {margin-left: 3.5vh;} .mar2 {margin-left: 8vh;} .btn-danger {width: 200px;}}
-
 @media (max-width: 1100px) {.mar {margin-left: 2vh;} .mar2 {margin-left: 5vh;}}
 @media (max-width: 1100px) {.mar {margin-left: 3vh;} .mar2 {margin-left: 7.7vh;} .content2 {padding: 30px 20px;}}
 @media (max-width: 980px) {
 .mar {margin-left: 8.5vh;}
 .content2 {padding: 30px 30px;}
 .mar2 {margin-left: /*60px*/15vh;}
-/*.montly1 {font-size: 22px; }*/
-/*.price1 {font-size: 60px; }
-.price2	{font-size: 25px; }
-.price3 {font-size: 16px; margin-top: -10px; }*/
 .cus {margin-top: 10px;}
-/*.card-down {color: #919191; margin-top: 15px; margin-bottom: 35px; font-size: 12px;}*/
 .title3 {font-size: 26px;}
 .title4 {font-size: 18px;}
 #vertical_menu {display: block;}
 .link {font-size: 16px;}}
-
 @media (max-width: 992px) {#vertical_menu {display: none;}#mob {display: block;}}
-
-
-
-
 @media (max-width: 800px) {
 .back {background:#f3f3f3;}
 .box {position: relative; border-radius: 5px;background-color: #ebebeb;box-shadow: 0px 13px 18px 0px rgba(22, 23, 24, 0.2);margin-top: -20px;width: 100%;height: 520px;}
-
 .title {line-height: 150px;margin-bottom: -20px;}
 .name {}
 .content {font-size: 17px;}
 .content2 {font-size: 17px;}}
-
 .link {color: #c4c4c4; text-decoration: underline;}
-/*.montly1 {font-size: 18px; }
-.price1 {font-size: 100px; }
-.price2	{font-size: 25px; }
-.price3 {font-size: 16px; margin-bottom: 20px;}
-.card-down {font-size: 14px;};*/
 .cards {margin-bottom: 30px;}
 .title3 {font-size: 26px;}
 .title4 {font-size: 18px;}
@@ -140,14 +101,12 @@ input {width: 90%;} /*.mar2 {margin-left: 5px;}*/ .link {font-size: 14px;}}
 .desc {font-size: 18px;}
 .text {font-size: 18px;}
 .logo {margin-left: 0px; }
-/*#vertical_menu {display: none;}*/
 #mob {color: white;margin-right: 5px;}
 .fa-bars:hover {color: #c4b2b2;}
 .hover_log {font-size: 14px;}
 footer {display: block; margin-top: 5%; padding: 30px; position: relative; bottom: 0;}
 .fon {height: 100%;}
 .navbar {min-height: 50px;}
-
 @media (max-width: 550px) {
 	.btn-danger {margin-top: 0px;}
    .name3 {font-size: 16px;}
@@ -161,7 +120,6 @@ footer {display: block; margin-top: 5%; padding: 30px; position: relative; botto
 .price2	{font-size: 18px; }
 .price3 {font-size: 16px; margin-top: -20px; margin-bottom: 20px;}
 .card-down {font-size: 14px;}}
-
 @media (max-width: 320px) {
 	.montly1 {font-size: 22px; }
 .price1 {font-size: 60px; }
